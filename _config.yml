@@ -1,11 +1,11 @@
 # Site settings
-title: Your awesome title
+title: Papers We Love Winnipeg
 email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Organizing and facilitating events that encourage the reading, presentation, and discussion of academic papers."
 baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://pwlwpg.ca"
+twitter_username: pwlwpg
+github_username:  pwlwpg
 
 # Build settings
 markdown: kramdown
