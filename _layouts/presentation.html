@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div id="main" role="main">
+  <div class="event-container">
+    <section class="home-entry article">
+      <h2>{{ page.title }}</h2>
+      <div class="entry-meta">
+	<span class="meta-presenter">
+	  <strong>Presenter:</strong>
+	  {{ page.presenter }}
+	</span>
+	|
+	<span class="meta-date">{{ page.date }}</span>
+      </div>
+
+      <article class="post-content">
+	{{ content }}
+      </article>
+
+      <section class="video">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.video }}" frameborder="0" allowfullscreen></iframe>
+      </section>
+  </div>
+</div>
