@@ -19,8 +19,10 @@ layout: default
 	{{ content }}
       </article>
 
+      {% if page.video %}
       <section class="video">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.video }}" frameborder="0" allowfullscreen></iframe>
       </section>
+      {% endif %}
   </div>
 </div>
