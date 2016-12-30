@@ -13,6 +13,35 @@ body {
     }
 }
 
+a {
+    text-decoration: none;
+    color: #0080ff;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0080ff;
+}
+
+h1, h2, h3, h4 {
+    text-align: left;
+    font-size: 1em;
+    margin: 1em 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    font-weight: normal;
+}
+
+h3 {
+    color: #999;
+    font-style: italic;
+}
+
 /* Navigation Bar */
 
 .nav-top {
@@ -153,13 +182,14 @@ body {
     }
 }
 
-footer.nav-footer {
+/* Site Footer */
+footer.site-footer {
     max-width: 68em;
     margin-left: auto;
     margin-right: auto
 }
 
-footer.nav-footer:after {
+footer.site-footer:after {
     content: "";
     display: table;
     clear: both
@@ -188,21 +218,32 @@ footer.nav-footer h3 {
     }
 }
 
-.page-content h1 {
-    text-align: left;
-    font-size: 2em;
-    margin: 1em 0;
-    padding: 0;
-    color: #007fff;
-    font-weight: normal;
-    /*font-style: bold;*/
-}
-
+/* Page Content */
 .page-content {
     font-size: 1.2em;
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #abstract, #bio {
-    text-align:left;
     margin: 1em 0;
 }
+
+/* Posts List */
+.posts {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.posts li {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.posts .post-date {
+    display: block;
+    font-size: 0.8em;
+    color: #818181;
+}
+
