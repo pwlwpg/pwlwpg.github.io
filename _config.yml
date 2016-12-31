@@ -3,8 +3,6 @@ title: Papers We Love Winnipeg
 description: "Organizing and facilitating events that encourage the reading, presentation, and discussion of academic papers."
 baseurl: ""
 url: "http://pwlwpg.ca"
-twitter_username: pwlwpg
-github_username:  pwlwpg
 
 # Build settings
 markdown: kramdown
