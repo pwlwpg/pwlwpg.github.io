@@ -4,8 +4,10 @@ title: Contact
 permalink: /contact/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+The easiest way to contact the organizers is by emailing [organizers@pwlwpg.ca](mailto:organizers@pwlwpg.ca). Alternatively, you can always tweet or DM [s@pwlwpg](https://twitter.com/pwlwpg/).
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+If you'd like to join us, and the rest of the global Papers We Love community on Slack (instant messaging), request an invite [here](http://papersweloveslack.herokuapp.com/). Once you've registered, join [#pwlwpg](https://paperswelove.slack.com/messages/pwlwpg/).
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+We can notify you about upcoming events if you subscribe to our mailing list. To join send an email to [announce+subscribe@pwlwpg.ca](mailto:announce+subscribe@pwlwpg.ca).
+
+If you have any difficulty with Slack or the mailing list, please let us know.
