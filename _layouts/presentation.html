@@ -39,7 +39,7 @@ layout: default
             <div class="video-witheld">The video for this event has been withheld, likely due to issues of quality.</d>
           {% else %}
             <section class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.video }}" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/{{ page.video }}" allowfullscreen></iframe>
             </section>
         {% endcase %}
       {% endif %}
