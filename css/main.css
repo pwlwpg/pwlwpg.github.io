@@ -226,8 +226,13 @@ footer.nav-footer h3 {
   margin-right: auto;
 }
 
-#abstract, #bio {
+/* Whole event's text */
+#event {
   margin: 1em 0;
+}
+
+/* Bio for presenter */
+#event p:last-child {
 }
 
 /* Posts List */
