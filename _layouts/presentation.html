@@ -7,32 +7,41 @@ layout: default
     <section class="home-entry article">
       <h1>{{ page.title }}</h1>
       <div class="entry-meta">
-	<span class="meta-presenter">
-	  <strong>Presenter:</strong>
-	  {{ page.presenter }}
-	</span>
-	|
-	<span class="meta-date">
-	{{ page.date | date: "%A, %B " }}
-	{% assign d1 = page.date | date: "%-d<sup>" %}
-	{% assign d2 = page.date | date: "</sup>, %Y" %}
-	{% case d1 %}
-	  {% when '1' or '21' or '31' %}{{ d1 }}st{{ d2 }}
-	  {% when '2' or '22' %}{{ d1 }}nd{{ d2 }}
-	  {% when '3' or '23' %}{{ d1 }}rd{{ d2 }}
-	  {% else %}{{ d1 }}th{{ d2 }}
-	{% endcase %}
-	</span>
+        <span class="meta-presenter">
+          <strong>Presenter:</strong>
+          {{ page.presenter }}
+        </span>
+        |
+        <span class="meta-date">
+        {{ page.date | date: "%A, %B " }}
+        {% assign d1 = page.date | date: "%-d<sup>" %}
+        {% assign d2 = page.date | date: "</sup>, %Y" %}
+        {% case d1 %}
+          {% when '1' or '21' or '31' %}{{ d1 }}st{{ d2 }}
+          {% when '2' or '22' %}{{ d1 }}nd{{ d2 }}
+          {% when '3' or '23' %}{{ d1 }}rd{{ d2 }}
+          {% else %}{{ d1 }}th{{ d2 }}
+        {% endcase %}
+        </span>
       </div>
 
       <article class="post-content" id="event">
-	{{ content }}
+        {{ content }}
       </article>
 
       {% if page.video %}
-      <section class="video">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.video }}" frameborder="0" allowfullscreen></iframe>
-      </section>
+        {% case page.video %}
+          {% when 'pending'  %}
+            <div class="video-pending">The video for this event has not yet been released.</d>
+          {% when 'lost'     %}
+            <div class="video-lost">The video for this event has been lost due to technical difficulties.</d>
+          {% when 'withheld' %}
+            <div class="video-witheld">The video for this event has been withheld, likely due to issues of quality.</d>
+          {% else %}
+            <section class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.video }}" frameborder="0" allowfullscreen></iframe>
+            </section>
+        {% endcase %}
       {% endif %}
   </div>
 </div>
