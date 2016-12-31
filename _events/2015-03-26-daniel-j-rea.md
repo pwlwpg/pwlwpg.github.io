@@ -4,6 +4,7 @@ title:     "PaintBoard: Prototyping Interactive Character Behaviours by Painting
 presenter: Daniel J. Rea
 video:     c_F6DJIjBB4
 date:      2015-03-26
+location:  skullspace
 ---
 
 The creation of interactive worlds, such as those in video games, often include a set of computer controlled characters that must intelligently act and react in response to dynamic input from the user. These interactive behaviours usually require authors to programmatically define each behaviour, reaction, and interaction the character should take in response to user input across a range of scenarios, a process that can take significant time. While this method can successfully create robust characters, the large development overhead is not conducive to the exploration, prototyping, and testing of new character ideas.

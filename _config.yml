@@ -1,12 +1,12 @@
-# Site settings
 title: Papers We Love Winnipeg
 description: "Organizing and facilitating events that encourage the reading, presentation, and discussion of academic papers."
 baseurl: ""
 url: "http://pwlwpg.ca"
 
-# Build settings
 markdown: kramdown
 permalink: pretty
 
 collections:
-- events
+  events:
+    permalink: /:collection/:path/
+    output: true

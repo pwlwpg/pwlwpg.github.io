@@ -241,14 +241,13 @@ footer.nav-footer h3 {
   padding-left: 0;
 }
 
-.events li {
+h2.event-title {
   font-size: 1.2em;
   margin-bottom: 1em;
 }
 
-.events .event-date {
+.event-date, .event-location {
   display: block;
   font-size: 0.8em;
   color: #818181;
 }
-

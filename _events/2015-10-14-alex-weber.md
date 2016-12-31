@@ -4,6 +4,7 @@ title:     "Secrecy, Authentication, and Public Key Systems"
 presenter: Alex Weber
 video:     rVm_Tlvr2j8
 date:      2015-10-14
+location:  skullspace
 ---
 
 This thesis describes Ralph Merkle's work between 1974 and 1979 on a variety of cryptography-related topics. The presentation will include a subset of the thesis's findings, due to the thesis's large size and the presentation's limited time. This thesis introduce Merkle's Puzzles, a public-key cryptosystem allowing two users to establish an encrypted channel without any secrets shared beforehand. It also covers the trapdoor knapsack and signature schemes.

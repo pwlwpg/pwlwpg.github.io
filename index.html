@@ -6,16 +6,44 @@ layout: default
 
   <h1>Upcoming Events</h1>
 
-  <ul class="events">
-    {% for event in site.events %}
-      {% if event.upcoming %}
-      <li>
-        <span class="event-date">{{ event.date | date: "%b %-d, %Y" }}</span>
-        <a class="event-link" href="{{ event.url | prepend: site.baseurl }}">{{ event.title }}</a>
-      </li>
+  {% for event in site.events %}
+    {% if event.upcoming %}
+      <h2 class="event-title"><a class="event-link" href="{{ event.url | prepend: site.baseurl }}">{{ event.title }}</a></h2>
+      <span class="event-date">
+      {{ event.date | date: "%A, %B " }}
+      {% assign d1 = event.date | date: "%-d<sup>" %}
+      {% assign d2 = event.date | date: "</sup>, %Y" %}
+      {% case d1 %}
+        {% when '1' or '21' or '31' %}{{ d1 }}st{{ d2 }}
+        {% when '2' or '22' %}{{ d1 }}nd{{ d2 }}
+        {% when '3' or '23' %}{{ d1 }}rd{{ d2 }}
+        {% else %}{{ d1 }}th{{ d2 }}
+      {% endcase %}
+      </span>
+      {% if event.location %}
+        <span class="event-location">
+        {% case event.location %}
+          {% when 'skullspace'  %}
+            2nd Floor, 374 Donald Street, Winnipeg, MB, R3B 2J2
+          {% when 'tba' %}
+              (To Be Announced)
+          {% else %}
+            {{ event.location }}
+        {% endcase %}
+        </span>
       {% endif %}
-    {% endfor %}
-  </ul>
+      <article class="event-content" id="event">
+        {{ event.content | markdownify }}
+      </article>
+    {% endif %}
+  {% endfor %}
+
+  {% assign upcoming_events = site.events | map: 'upcoming' | join: '' %}
+  {% if upcoming_events == "" %}
+    <p>No events are currently scheduled. Events most months, with a break for the holiday season (December) and summer (June, July, and August).</p>
+
+    <p>While you wait for the next event to be announced, you may be interested in our <a href="/events/">past events</a>, most of which have video recordings available.</p>
+  {% endif %}
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
