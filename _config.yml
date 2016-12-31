@@ -1,6 +1,5 @@
 # Site settings
 title: Papers We Love Winnipeg
-email: your-email@domain.com
 description: "Organizing and facilitating events that encourage the reading, presentation, and discussion of academic papers."
 baseurl: ""
 url: "http://pwlwpg.ca"
@@ -10,3 +9,6 @@ github_username:  pwlwpg
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+collections:
+- events

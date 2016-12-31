@@ -235,18 +235,18 @@ footer.nav-footer h3 {
 #event p:last-child {
 }
 
-/* Posts List */
-.posts {
+/* Event List */
+.events {
   list-style-type: none;
   padding-left: 0;
 }
 
-.posts li {
+.events li {
   font-size: 1.2em;
   margin-bottom: 1em;
 }
 
-.posts .post-date {
+.events .event-date {
   display: block;
   font-size: 0.8em;
   color: #818181;
