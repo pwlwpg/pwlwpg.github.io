@@ -32,11 +32,11 @@ layout: default
       {% if page.video %}
         {% case page.video %}
           {% when 'pending'  %}
-            <div class="video-pending">The video for this event has not yet been released.</d>
+            <div class="video-pending">The video for this event has not yet been released.</div>
           {% when 'lost'     %}
-            <div class="video-lost">The video for this event has been lost due to technical difficulties.</d>
+            <div class="video-lost">The video for this event has been lost due to technical difficulties.</div>
           {% when 'withheld' %}
-            <div class="video-witheld">The video for this event has been withheld, likely due to issues of quality.</d>
+            <div class="video-witheld">The video for this event has been withheld, likely due to issues of quality.</div>
           {% else %}
             <section class="video">
                 <iframe src="https://www.youtube.com/embed/{{ page.video }}" allowfullscreen></iframe>
