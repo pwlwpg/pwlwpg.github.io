@@ -4,7 +4,6 @@ title:     "CSP Is Dead, Long Live CSP! On the Insecurity of Whitelists and the 
 presenter: Russell Schreyer
 date:      2017-01-25
 time:      7:00pm - 8:00pm
-video:     pending
 location:  library-stb
 upcoming:  true
 ---

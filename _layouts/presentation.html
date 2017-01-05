@@ -21,8 +21,22 @@ layout: default
           {% when '2' or '22' %}{{ d1 }}nd{{ d2 }}
           {% when '3' or '23' %}{{ d1 }}rd{{ d2 }}
           {% else %}{{ d1 }}th{{ d2 }}
+        {% endcase %} from {{ page.time }}
+        </span>
+        {% if page.location %}
+        <span class="event-location">
+        {% case page.location %}
+          {% when 'library-stb'  %}
+            St. Boniface Library: 131 Provencher Blvd, #100, Winnipeg, MB R2H 0G2
+          {% when 'skullspace'  %}
+            SkullSpace: 2nd Floor, 374 Donald Street, Winnipeg, MB, R3B 2J2
+          {% when 'tba' %}
+            (To Be Announced)
+          {% else %}
+            {{ page.location }}
         {% endcase %}
         </span>
+        {% endif %}
       </div>
 
       <article class="event-content" id="event">
