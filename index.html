@@ -18,7 +18,7 @@ layout: default
         {% when '2' or '22' %}{{ d1 }}nd{{ d2 }}
         {% when '3' or '23' %}{{ d1 }}rd{{ d2 }}
         {% else %}{{ d1 }}th{{ d2 }}
-      {% endcase %}
+      {% endcase %} from {{ event.time }}
       </span>
       {% if event.location %}
         <span class="event-location">
