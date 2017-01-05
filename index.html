@@ -23,10 +23,12 @@ layout: default
       {% if event.location %}
         <span class="event-location">
         {% case event.location %}
+          {% when 'library-stb'  %}
+            St. Boniface Library: 131 Provencher Blvd, #100, Winnipeg, MB R2H 0G2
           {% when 'skullspace'  %}
-            2nd Floor, 374 Donald Street, Winnipeg, MB, R3B 2J2
+            SkullSpace: 2nd Floor, 374 Donald Street, Winnipeg, MB, R3B 2J2
           {% when 'tba' %}
-              (To Be Announced)
+            (To Be Announced)
           {% else %}
             {{ event.location }}
         {% endcase %}
