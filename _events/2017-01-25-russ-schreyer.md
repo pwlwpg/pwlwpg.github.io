@@ -4,8 +4,8 @@ title:     "CSP Is Dead, Long Live CSP! On the Insecurity of Whitelists and the 
 presenter: Russell Schreyer
 date:      2017-01-25
 time:      7:00pm - 8:00pm
+video:     pending
 location:  library-stb
-upcoming:  true
 ---
 
 A team at Google performed a large scale analysis of real-world deployments of the Content Security Policy and found that roughly 95% of all distinct policies could be bypassed. This paper discusses how they did it, and how to improve the situation.
