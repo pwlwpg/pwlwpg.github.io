@@ -3,7 +3,7 @@ layout:    presentation
 title:     "Human Factors and Folk Models"
 presenter: Alex Weber
 date:      2017-04-19
-time:      7:00pm - 8:00pm
+time:      7:30pm - 8:30pm
 location:  library-stb
 upcoming:  true
 ---
