@@ -5,7 +5,7 @@ presenter: Alex Weber
 date:      2017-04-19
 time:      7:30pm - 8:30pm
 location:  library-stb1
-upcoming:  true
+video:     pending
 ---
 
 Folk models are mental models of how things work, shared by many people, that are not necessarily correct. This presentation discuss the susceptibility of humans to the use of these folk models. The guiding examples are of conclusions drawn from failures of a system where a human factor is involved, such as an airplane crash. Folk models of human task performance are discussed, and the conclusions drawn from these models (such as "the pilot became complacent") are shown to be useless for decision-makers, despite appearing insightful.

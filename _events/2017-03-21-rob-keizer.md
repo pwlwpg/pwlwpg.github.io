@@ -5,6 +5,7 @@ presenter: Rob Keizer
 date:      2017-03-21
 time:      7:00pm - 8:00pm
 location:  library-stb
+video:     pending
 ---
 
 This presentation will discuss a method that can automate the process of generating and extending dictionaries and phrase tables, which are the basis of modern statistical machine translation systems. This method can translate missing word and phrase entries by learning language structures based on large monolingual data and mapping between languages from small bilingual data. Despite its simplicity, the method is surprisingly effective.
