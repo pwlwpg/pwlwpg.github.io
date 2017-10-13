@@ -5,7 +5,7 @@ presenter: Mak Kolybabi
 date:      2017-09-27
 time:      7:00pm - 8:00pm
 location:  skullspace
-upcoming:  true
+video:     pending
 ---
 
 This presentation will discuss the PhD thesis of a blind computer science researcher who built a system to assist with his computer use. The ASTER system facilitates the reading and navigation of electronic documents as audio documents, extracting their semantics to inform the rendering of audio. We will also discuss how this project has progressed into its current form in the twenty three years since publication.
