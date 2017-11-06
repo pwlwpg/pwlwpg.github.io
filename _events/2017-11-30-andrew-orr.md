@@ -3,7 +3,7 @@ layout:    presentation
 title:     "Peer-to-peer networking with BitTorrent"
 presenter: Andrew Orr
 date:      2017-11-30
-time:      7:30pm - 8:30pm
+time:      7:00pm - 8:00pm
 location:  skullspace
 upcoming:  true
 ---
