@@ -5,7 +5,7 @@ presenter: Alex Weber
 date:      2017-10-25
 time:      7:30pm - 8:30pm
 location:  skullspace
-upcoming:  true
+video:     pending
 ---
 
 This presentation will discuss a simple, theoretically sound approach to eventual consistency. The concept of a convergent or commutative replicated data type (CRDT) will be introduced, for which some simple mathematical properties ensure eventual consistency. A trivial example of a CRDT is a replicated counter, which converges because the increment and decrement operations commute (assuming no overflow). Provably, replicas of any CRDT converge to a common state that is equivalent to some correct sequential execution. As a CRDT requires no synchronisation, an update executes immediately, unaffected by network latency, faults, or disconnection. It is extremely scalable and is fault-tolerant, and does not require much mechanism. CRDTs are used by chat system, collaborative editing systems, and NoSQL databases.
