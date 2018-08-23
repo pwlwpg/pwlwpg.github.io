@@ -4,7 +4,7 @@ title:     "Networks of Hosts Implementing DNS are NP-Complete"
 presenter: Mak Kolybabi
 date:      2019-09-06
 time:      7:00pm - 8:00pm
-location:  skullspace
+location:  tba
 upcoming:  true
 ---
 
