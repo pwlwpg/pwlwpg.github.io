@@ -2,7 +2,7 @@
 layout:    presentation
 title:     "The Zettabyte File System"
 presenter: Mak Kolybabi
-date:      2018-09-XX
+date:      2018-09-00
 time:      7:00pm - 8:00pm
 location:  library-stb
 upcoming:  true
