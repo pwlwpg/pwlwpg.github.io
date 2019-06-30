@@ -5,7 +5,8 @@ presenter: Mak Kolybabi
 date:      2018-09-05
 time:      7:00pm - 8:00pm
 location:  library-stb
-upcoming:  true
+upcoming:  false
+video:     withheld
 ---
 
 Mak Kolybabi defends his MSc thesis on September 12 at the University of Manitoba, and will present it here in advance.
